@@ -26,7 +26,7 @@ Create a `.env` file in the root directory of the project:
 NASA_API_KEY=YOUR_NASA_API_KEY
 ```
 * Replace YOUR_NASA_API_KEY with the API Key you obtained.
-* **Important**: Do not share or commit your API Key.
+* **Important**: Do not share or commit your API Key (add `.env` to `.gitignore`)
 
 ### Running the Application
 Start the development server:
