@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
 
   return {
-    base: '/vanilla-js-spa/', 
+    base: '/vanilla-js-spa-test/', 
     root: './src',
     build: {
       outDir: '../dist',
