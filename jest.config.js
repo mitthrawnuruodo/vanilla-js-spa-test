@@ -1,4 +1,8 @@
 module.exports = {
-  testEnvironment: 'jsdom',
+  testEnvironment: 'jest-environment-jsdom',
   setupFiles: ['dotenv/config'],
+
+  transform: {
+    '^.+\\.js$': 'babel-jest',
+  },
 };
