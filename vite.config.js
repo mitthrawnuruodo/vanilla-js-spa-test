@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
     base: '/vanilla-js-spa/', 
     root: './src',
     build: {
-      outDir: '../dist',
+      outDir: './dist',
       emptyOutDir: true, 
     },
     define: {
